@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;600&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+:root{
+    --cor-primaria: #884A39;
+    --cor-cabecalho: #C38154;
+    --cor-texto: #F9E0BB;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.cabecalho{
+    display: flex;
+    font-size: 10px;
+    background-color: var(--cor-cabecalho);
+    padding: 1%;
+}
+.apresentacao{
+    padding: 3% 0% 0% 3%;
+    display: flex;
+    gap: 60px;
+}
+.bloco2{
+    padding: 3% 0% 5% 3%;
+    display: flex;
+    gap: 60px;
+}
+.rodape{
+    padding: 2%;
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+}
